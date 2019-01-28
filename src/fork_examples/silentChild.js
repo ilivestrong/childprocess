@@ -1,0 +1,1 @@
+process.stdout.write(`Data written by child on its stdout`) 

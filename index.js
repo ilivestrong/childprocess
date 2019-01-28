@@ -10,7 +10,12 @@
 // const basicExecFileImplementation = require('./src/execFile_examples/basic')
 // basicExecFileImplementation()
 
-const basicForkImplementation = require('./src/fork_examples/basic')
-basicForkImplementation()
+// const basicForkImplementation = require('./src/fork_examples/basic')
+// basicForkImplementation()
 
-console.log(`Process execPath: ${process.execPath}`)
+
+
+const silentOptionForkImplementation = require('./src/fork_examples/useSilent')
+silentOptionForkImplementation()
+
+//console.log(`Process execPath: ${process.execPath}`)
