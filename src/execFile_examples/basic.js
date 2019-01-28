@@ -6,7 +6,7 @@ const init = () => {
      * Output from child process is provided to parent process as a string(Utf-8 encodedd-default) as stdout argument.
      * ------------------------------------------------------------------------------------------------------------------------------------
      */
-    cp.execFile('git', ["branch"], (error, stdout, stderror) => {
+    const processObj = cp.execFile('git', ["branch"], (error, stdout, stderror) => {
         if (error) {
             console.log(`Child process returned an error.\nError code: ${error.code}\nMessage: ${error.message}`)
         } else {
