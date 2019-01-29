@@ -15,7 +15,10 @@
 
 
 
-const silentOptionForkImplementation = require('./src/fork_examples/useSilent')
-silentOptionForkImplementation()
+// const silentOptionForkImplementation = require('./src/fork_examples/useSilent')
+// silentOptionForkImplementation()
+
+const stdioOptionForkImplementation = require('./src/fork_examples/stdioOption')
+stdioOptionForkImplementation()
 
 //console.log(`Process execPath: ${process.execPath}`)
