@@ -7,3 +7,4 @@ Some sample conceptual examples of Child Process topic in Node
 4. Fork - 
 4.1 - implement basic fork example - DONE
 4.2 - implement fork with silent=true - DONE
+5. Implement few examples of options.stdio(Common for spawn/fork) - DONE
