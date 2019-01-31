@@ -18,7 +18,10 @@
 // const silentOptionForkImplementation = require('./src/fork_examples/useSilent')
 // silentOptionForkImplementation()
 
-const stdioOptionForkImplementation = require('./src/fork_examples/stdioOption')
-stdioOptionForkImplementation()
+// const stdioOptionForkImplementation = require('./src/fork_examples/stdioOption')
+// stdioOptionForkImplementation()
+
+const detachedParent= require('./src/fork_examples/detachedParent')
+detachedParent()
 
 //console.log(`Process execPath: ${process.execPath}`)
